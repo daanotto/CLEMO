@@ -1,5 +1,22 @@
+# Core scientific stack
 numpy==2.1.0
 scipy==1.14.1
 pandas==2.2.2
 matplotlib==3.9.0
+seaborn==0.13.2
 scikit-learn>=1.5.0
+
+# Shortest Path Problem (01_shortest_path.ipynb)
+networkx==3.3
+
+# Knapsack experiments (02_knapsack_main.ipynb, 03_knapsack_runtime_ablation.ipynb)
+# Require a Gurobi license for pyomo's gurobi_direct interface.
+pyomo==6.7.3
+gurobipy>=11.0
+
+# Vehicle Routing Problem (04_vehicle_routing.ipynb)
+ortools==9.10.4067
+
+# Notebook execution
+jupyter
+ipykernel
